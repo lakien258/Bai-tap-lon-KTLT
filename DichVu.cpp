@@ -72,7 +72,7 @@ void DichVuUuDai::themDichVu(vector<DichVuUuDai>& danhSach) {
     cout << "Nhap diem tich luy: ";
     cin >> diem;
     dv.setDiemTichLuy(diem);
-    cin.ignore(); // Bỏ qua ký tự newline sau khi đọc số
+    cin.ignore(); 
 
     cout << "Nhap muc do than thiet: ";
     getline(cin, temp);
