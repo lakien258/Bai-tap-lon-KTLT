@@ -3,18 +3,7 @@
 
 using namespace std;
 
-// void KhachHang::luuDanhSachKhachHang(const vector<KhachHang>& danhSach) {
-//     ofstream file("logs/KhachHang.txt");
-//     if (!file) {
-//         cerr << "Khong the mo tep de luu du lieu." << endl;
-//         return;
-//     }
-//     for (const auto& kh : danhSach) {
-//         file <<kh.getMkh() <<"," <<kh.getTen() << "," << kh.getDob() << "," <<kh.getDiaChi() 
-// 		<< "," <<kh.getSoDienThoai() << "," <<kh.getEmail() << "," <<kh.getSoCCCD() <<endl;
-//     }
-//     file.close(); 
-// }
+
 void KhachHang::luuDanhSachKhachHang(const vector<KhachHang>& danhSach) {
     ofstream file("logs/KhachHang.txt");
     if (!file) {
